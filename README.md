@@ -1,4 +1,4 @@
-# Bharat Bhasha in Scenes
+# Bhasha Scene Text Dataset
 
 [comment]: <> (Add a table with 13 languages and links to its files)
 
