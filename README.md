@@ -48,16 +48,31 @@ python3 getStats.py hindi
 Words in the image are annotated in the polygon format. The annotation file is a json file with the following format:
 ```
 "image_id": {
-    "coordinates": 
+    "annotations": 
     {
-        "coordinates":
-            [
-                [x1, y1],
-                [x2, y2],
-                ...,
-                [xn, yn]
-            ],
-        "text": "text in the image"
+        "polygon_0":
+        {
+            "coordinates":
+                [
+                    [x1, y1],
+                    [x2, y2],
+                    ...,
+                    [xn, yn]
+                ],
+            "text": "text in the current polygon"
+        },
+        ...,
+        "polygon_n":
+        {
+            "coordinates":
+                [
+                    [x1, y1],
+                    [x2, y2],
+                    ...,
+                    [xn, yn]
+                ],
+            "text": "text in the current polygon"
+        }
     },
     "url": "url of the image",
     "image_name": "name of the image",
