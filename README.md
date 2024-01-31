@@ -30,6 +30,7 @@
 | Tamil | 521 | 10.4 | [file](files/tamil.json) |
 | Telugu | 607 | 10.5 | [file](files/telugu.json) |
 | Urdu | 551 | 21.4 | [file](files/urdu.json) |
+| Meitei | 82 | 19.9 | [file](files/meitei.json) |
 | Marathi | 100 | 1.5 | [file]() |
 
 

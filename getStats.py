@@ -27,6 +27,6 @@ else:
 print(f'No of images: {len(data)}')
 wordCounts = []
 for key, value in data.items():
-    wordCounts.append(len(value['coordinates']))
+    wordCounts.append(len(value['annotations']))
 
 print(f'Avg no of words per image: {sum(wordCounts)/len(wordCounts)}')
