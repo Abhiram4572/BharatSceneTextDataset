@@ -1,4 +1,4 @@
-# Bharat Bhasha in Scenes
+# Bhasha Scene Text Dataset
 
 [comment]: <> (Add a table with 13 languages and links to its files)
 
@@ -82,6 +82,10 @@ Words in the image are annotated in the polygon format. The annotation file is a
 
 ## Known Issues:
 - The data is collected from the internet and hence there are some images which are not in the correct orientation. We have tried to remove such images but there might be some left. 
+
+## Data Annotation
+- All the images are collected from Wikimedia commons (under Creative Commons Licence, cc-by-sa-4.0)
+- Further detection and recognition annotations are human annotated.
 
 # Contact
 For any queries, please contact us at:
