@@ -38,9 +38,9 @@
 
 Step 1: Download the zip file from [here](https://drive.google.com/file/d/1Ct7-PHyBguyvY6A0zvmz4s_JOoav21pE/view?usp=share_link)
 
-Step 2: Extract the downloaded zip file.
+Step 2: Extract the downloaded zip file into "data" folder
 ```
-unzip BSTD.zip
+unzip BSTD.zip -d data
 ```
 Step 3: Download the images
 ```
@@ -82,6 +82,21 @@ Words in the image are annotated in the polygon format. The annotation file is a
     "language": "main language"
 }
 ```
+
+## Data Visualisation:
+To visualise detection annotations, run the following command:
+```
+python3 visualise.py <image_path> <path_to_BSTD.json>
+```
+for e.g.
+```
+python3 visualise.py data/assamese/image_1005.jpg data/BSTD.json
+```
+
+Some examples are below:
+<!-- Add an example image next to this line -->
+![image info](visualised_images/image.jpg)
+![image info](visualised_images/image2.jpg)
 
 ## Known Issues:
 - The data is collected from the internet and hence there are some images which are not in the correct orientation. We have tried to remove such images but there might be some left. 
