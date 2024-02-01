@@ -1,4 +1,4 @@
-# Bhasha Scene Text Dataset
+# Bharat Scene Text Dataset
 
 [comment]: <> (Add a table with 13 languages and links to its files)
 
@@ -17,23 +17,37 @@
 # Data Description:
 ## Data Statistics:
 
-| Language | #images | #Avg words per image | Annotation File |
-| :---: | :---: | :---: | :---: |
-| Assamese | 295 | 27.1 | [file](files/assamese.json) |
-| Bengali | 305 | 32 | [file](files/bengali.json) |
-| Gujarati | 525 | 9.1 | [file](files/gujarati.json) |
-| Hindi | 1218 | 14.7 | [file](files/hindi.json) |
-| Kannada | 627 | 14.2 | [file](files/kannada.json) |
-| Malayalam | 474 | 14.5 | [file](files/malayalam.json) |
-| Odia | 533 | 20 | [file](files/odia.json) |
-| Punjabi | 517 | 38.7 | [part1](files/punjabi_part1.json), [part2](files/punjabi_part2.json) |
-| Tamil | 521 | 10.4 | [file](files/tamil.json) |
-| Telugu | 607 | 10.5 | [file](files/telugu.json) |
-| Urdu | 551 | 21.4 | [file](files/urdu.json) |
-| Meitei | 82 | 19.9 | [file](files/meitei.json) |
-| Marathi | 100 | 1.5 | [file]() |
+| Language | #images | #Avg words per image |
+| :---: | :---: | :---: |
+| Assamese | 295 | 27.1 |
+| Bengali | 305 | 32 | 
+| Gujarati | 525 | 9.1 |
+| Hindi | 1218 | 14.7 | 
+| Kannada | 627 | 14.2 | 
+| Malayalam | 474 | 14.5 | 
+| Odia | 533 | 20 |
+| Punjabi | 517 | 38.7 |
+| Tamil | 521 | 10.4 | 
+| Telugu | 607 | 10.5 |
+| Urdu | 551 | 21.4 | 
+| Meitei | 82 | 19.9 |
+ Marathi | 100 | 1.5 |
 
 
+## Data Download:
+
+Step 1: Download the zip file from [here](https://drive.google.com/file/d/1Ct7-PHyBguyvY6A0zvmz4s_JOoav21pE/view?usp=share_link)
+
+Step 2: Extract the downloaded zip file.
+```
+unzip BSTD.zip
+```
+Step 3: Download the images
+```
+python3 downloadImages.py 
+```
+
+<!-- 
 All these statistics can be verified by quickly running the following command:
 
 ```bash
@@ -43,12 +57,12 @@ python3 getStats.py <language_in_lower_case>
 for e.g.
 ```bash
 python3 getStats.py hindi
-```
+``` -->
 
 ## Data Format:
 Words in the image are annotated in the polygon format. The annotation file is a json file with the following format:
 ```
-"image_id": {
+"language_image_id": {
     "annotations": 
     {
         "polygon_0":
@@ -77,6 +91,7 @@ Words in the image are annotated in the polygon format. The annotation file is a
     },
     "url": "url of the image",
     "image_name": "name of the image",
+    "language": "main language"
 }
 ```
 
