@@ -47,18 +47,6 @@ Step 3: Download the images
 python3 downloadImages.py 
 ```
 
-<!-- 
-All these statistics can be verified by quickly running the following command:
-
-```bash
-python3 getStats.py <language_in_lower_case>
-```
-
-for e.g.
-```bash
-python3 getStats.py hindi
-``` -->
-
 ## Data Format:
 Words in the image are annotated in the polygon format. The annotation file is a json file with the following format:
 ```
