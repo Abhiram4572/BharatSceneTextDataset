@@ -6,7 +6,7 @@
 
 [comment]: <> (checkbox style release updates with cross ticks for the ones present)
 
-- [30/9/24] Data v1 released for 12 languages along with the detection annotations.
+- [2/2/24] Data v1 released for 13 languages along with the detection annotations.
 
 ### UpNext
 - [ ] Recognition annotation release.
