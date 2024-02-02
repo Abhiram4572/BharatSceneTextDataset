@@ -10,39 +10,40 @@
 
 ### UpNext
 - [ ] Recognition annotation release.
-- [ ] Data v1 release for Marathi.
-- [x] Detection annotations for 12 languages.
-- [x] Data v1 for 12 languages.
+- [x] Detection annotations for 13 languages.
+- [x] Data v1 for 13 languages.
 
 # Data Description:
 ## Data Statistics:
 
-| Language | #images | #Avg words per image |
+| Language | #images | #Total words |
 | :---: | :---: | :---: |
-| Assamese | 295 | 27.1 |
-| Bengali | 305 | 32 | 
-| Gujarati | 525 | 9.1 |
-| Hindi | 1218 | 14.7 | 
-| Kannada | 627 | 14.2 | 
-| Malayalam | 474 | 14.5 | 
-| Odia | 533 | 20 |
-| Punjabi | 517 | 38.7 |
-| Tamil | 521 | 10.4 | 
-| Telugu | 607 | 10.5 |
-| Urdu | 551 | 21.4 | 
-| Meitei | 82 | 19.9 |
- Marathi | 100 | 1.5 |
+| Assamese | 295 | 7996 |
+| Bengali | 305 | 9766 | 
+| Gujarati | 525 | 4777 |
+| Hindi | 1218 | 17945 | 
+| Kannada | 627 | 8898 | 
+| Malayalam | 474 | 6850 | 
+| Meitei | 82 | 1633 |
+| Odia | 533 | 10660 |
+| Punjabi | 517 | 20028 |
+| Tamil | 521 | 5413 | 
+| Telugu | 607 | 6377 |
+| Urdu | 551 | 11773 | 
+| Marathi | 100 | 25875 |
 
 
 ## Data Download:
 
-Step 1: Download the zip file from [here](https://drive.google.com/file/d/1Ct7-PHyBguyvY6A0zvmz4s_JOoav21pE/view?usp=share_link)
+Step 1: Request access to the data by filling this [form](https://forms.gle/pbJAQpSSKB8jGhTcA). We shall review your request and provide access to the data.
 
-Step 2: Extract the downloaded zip file into "data" folder
+Step 2: Download the data from the link provided in the email.
+
+Step 3: Extract the downloaded zip file into "data" folder
 ```
 unzip BSTD.zip -d data
 ```
-Step 3: Download the images
+Step 4: Download the images
 ```
 python3 downloadImages.py 
 ```
