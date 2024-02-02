@@ -91,7 +91,7 @@ python3 visualise.py <image_path> <path_to_BSTD.json>
 ```
 for e.g.
 ```
-python3 visualise.py data/assamese/image_1005.jpg data/BSTD.json
+python3 visualise.py data/hindi/image_141.jpg data/BSTD.json
 ```
 
 Some examples are below:
