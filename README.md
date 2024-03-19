@@ -16,21 +16,21 @@
 # Data Description:
 ## Data Statistics:
 
-| Language | #images | #Total words |
-| :---: | :---: | :---: |
-| Assamese | 295 | 7996 |
-| Bengali | 305 | 9766 | 
-| Gujarati | 525 | 4777 |
-| Hindi | 1218 | 17945 | 
-| Kannada | 627 | 8898 | 
-| Malayalam | 474 | 6850 | 
-| Meitei | 82 | 1633 |
-| Odia | 533 | 10660 |
-| Punjabi | 517 | 20028 |
-| Tamil | 521 | 5413 | 
-| Telugu | 607 | 6377 |
-| Urdu | 551 | 11773 | 
-| Marathi | 100 | 25875 |
+| Language | #images | #Total words | # Total words with recognition annotations |
+| :---: | :---: | :---: | :---: |
+| Assamese | 295 | 7996 | 0 |
+| Bengali | 305 | 9766 | 0 |
+| Gujarati | 525 | 4777 | 4062 |
+| Hindi | 1218 | 17945 | 17088 |
+| Kannada | 627 | 8898 | 0 |
+| Malayalam | 474 | 6850 | 0 |
+| Meitei | 82 | 1633 | 0 |
+| Odia | 533 | 10660 | 0 |
+| Punjabi | 517 | 20028 | 0 |
+| Tamil | 521 | 5413 | 0 |
+| Telugu | 607 | 6377 | 0 |
+| Urdu | 551 | 11773 | 0 |
+| Marathi | - | 25875 | 0 |
 
 
 ## Data Download:
