@@ -6,6 +6,10 @@
 
 [comment]: <> (checkbox style release updates with cross ticks for the ones present)
 
+- [18/4/24] Data v5 release; Word level recognition annotations for 5/13 languages.
+- [12/4/24] Data v4 release; Word level recogntion annotations for 2/13 languages. (Part-2)
+- [19/3/24] Data v3 release; Word level recognition annotations for 2/13 languages. (Part-1)
+- [3/3/24] Data v2 release; Word level recognition annotations for 1/13 languages.
 - [2/2/24] Data v1 released for 13 languages along with the detection annotations.
 
 ### UpNext
