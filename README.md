@@ -18,18 +18,18 @@
 
 | Language | #images | #Total words | # Total words with recognition annotations |
 | :---: | :---: | :---: | :---: |
-| Assamese | 295 | 7996 | 0 |
+| Assamese | 295 | 7991 | 0 |
 | Bengali | 305 | 9766 | 0 |
-| Gujarati | 525 | 4777 | 4062 |
-| Hindi | 1218 | 17945 | 17088 |
-| Kannada | 627 | 8898 | 6606 |
+| Gujarati | 525 | 4767 | 4062 |
+| Hindi | 1218 | 17935 | 17088 |
+| Kannada | 627 | 8847 | 6606 |
 | Malayalam | 474 | 6850 | 0 |
-| Meitei | 82 | 1633 | 0 |
-| Odia | 533 | 10660 | 0 |
-| Punjabi | 517 | 20028 | 19261 |
+| Meitei | 82 | 1632 | 0 |
+| Odia | 533 | 10657 | 0 |
+| Punjabi | 517 | 20017 | 19261 |
 | Tamil | 521 | 5413 | 4505 |
-| Telugu | 607 | 6377 | 0 |
-| Urdu | 551 | 11773 | 0 |
+| Telugu | 607 | 6375 | 0 |
+| Urdu | 551 | 11771 | 0 |
 | Marathi | - | 25875 | 0 |
 
 
