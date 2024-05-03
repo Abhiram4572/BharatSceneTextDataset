@@ -6,6 +6,7 @@
 
 [comment]: <> (checkbox style release updates with cross ticks for the ones present)
 
+- [1/4/24] Data v6 release; Word level recognition for 6/13 languages.
 - [18/4/24] Data v5 release; Word level recognition annotations for 5/13 languages.
 - [12/4/24] Data v4 release; Word level recogntion annotations for 2/13 languages. (Part-2)
 - [19/3/24] Data v3 release; Word level recognition annotations for 2/13 languages. (Part-1)
@@ -27,7 +28,7 @@
 | Gujarati | 525 | 4767 | 4062 |
 | Hindi | 1218 | 17935 | 17088 |
 | Kannada | 627 | 8847 | 6606 |
-| Malayalam | 474 | 6850 | 0 |
+| Malayalam | 474 | 6850 | 4249 |
 | Meitei | 82 | 1632 | 0 |
 | Odia | 533 | 10657 | 0 |
 | Punjabi | 517 | 20017 | 19261 |
